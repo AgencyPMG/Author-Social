@@ -28,7 +28,8 @@ function cd_auth_soc_networks()
         'youtube'       => __( 'Youtube','author-social' ),
         'linkedin'      => __( 'LinkedIn', 'author-social' ),
         'pinterest'     => __( 'Pinterest', 'author-social' ),
-        'google_plus'   => __( 'Google+', 'author-social' )
+        'google_plus'   => __( 'Google+', 'author-social' ),
+        'klout'         => __( 'Klout', 'author-social' )
     );
     return apply_filters( 'author_social_networks', $networks );
 }

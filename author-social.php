@@ -36,7 +36,3 @@ if( is_admin() )
 {
     require_once( CD_AUTH_SOC_PATH . 'inc/admin.php' );
 }
-else
-{
-    require_once( CD_AUTH_SOC_PATH . 'inc/front.php' );
-}

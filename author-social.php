@@ -30,6 +30,8 @@ define( 'CD_AUTH_SOC_PATH', plugin_dir_path( __FILE__ ) );
 define( 'CD_AUTH_SOC_URL', plugin_dir_url( __FILE__ ) );
 define( 'CD_AUTH_SOC_NAME', plugin_basename( __FILE__ ) );
 
+require_once( CD_AUTH_SOC_PATH . 'inc/functions.php' );
+
 if( is_admin() )
 {
     require_once( CD_AUTH_SOC_PATH . 'inc/admin.php' );

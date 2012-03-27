@@ -59,6 +59,8 @@ class CD_Author_Social_Admin
                 }
                 ?>
             </table>
+            <h4><?php _e( 'Preview', 'author-social' ); ?></h4>
+            <?php the_author_social( $user->ID ); ?>
         <?php
     }
 

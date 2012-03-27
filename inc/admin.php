@@ -44,7 +44,6 @@ class CD_Author_Social_Admin
         add_action( 'edit_user_profile', array( &$this, 'profile' ) );
         add_action( 'edit_user_profile_update', array( &$this, 'save' ) );
         add_action( 'personal_options_update', array( &$this, 'save' ) );
-        add_filter( 'plugin_action_links_' . CD_AUTH_SOC_NAME, array( &$this, 'actions' ) );
 
         $networks = array(
             'facebook'    => __( 'Facebook', 'author-social' ),

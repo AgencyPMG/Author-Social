@@ -28,6 +28,7 @@ License: GPL2
 
 define( 'CD_AUTH_SOC_PATH', plugin_dir_path( __FILE__ ) );
 define( 'CD_AUTH_SOC_URL', plugin_dir_url( __FILE__ ) );
+define( 'CD_AUTH_SOC_NAME', plugin_basename( __FILE__ ) );
 
 if( is_admin() )
 {
